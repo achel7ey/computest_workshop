@@ -1,0 +1,56 @@
+div, footer {
+  padding:20px;
+}
+body {
+  background-color: powderblue;
+  font-family: "Verdana", "Times New Roman", Times, serif;
+  display: flex;
+  flex-direction: column;
+  color: black;
+}
+
+#login {width:250px; margin:200px auto;}
+label {width:200px; display: block;}
+label > input {float:right; padding:0px;}
+input[type="submit"] { float:right }
+
+#header {
+  background-color: purple;
+  color: yellow;
+}
+#flex-container {
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+}
+nav {
+  background-color: white;
+  border: 3px dotted red;
+  flex: 0 0 10em;
+}
+#content {
+  background-color: green;
+  border: blue;
+  color: red;
+  flex: 1 1 20em;
+}
+footer {
+  background-color: black;
+  color: white;
+}
+#logo {
+  float: left;
+  background-color: blue;
+  margin: -20px 20px -20px -20px;
+  height:70px;
+  width:70px;
+  background-size: contain;
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  background-image: url("http://cdn.dutchcowboys.nl/uploads/posts/list/23-van-de-kinderen-10-14-jaar-heeft-nog-.jpg");
+}
+#user_details {
+  float: right;
+  padding: 0px;
+  text-align: right;
+}

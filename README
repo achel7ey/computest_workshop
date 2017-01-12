@@ -1,0 +1,21 @@
+README
+
+if MAC OS then
+- copy app folder to local disk
+- execute start.command in the app folder
+- browse to http://localhost:8000/
+
+else if WIN then
+- make sure you Windows system is ISS and PHP ready
+- copy app folder to local disk
+- rename start.command to start.sh
+- execute start.sh in the app folder
+- browse to http://localhost:8000/
+
+else
+- Find someone with a MAC OS system and start again
+
+
+ o Kleuren, lettertypen en andere opmaak kunnen aangepast worden in 'style.css'
+ o De lijst met liedjes kan gevonden worden in de map 'database'
+ o De 'database' wordt uitgelezen in 'includes/content.inc.php'
