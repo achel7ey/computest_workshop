@@ -5,6 +5,9 @@
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+	<div class="InlogLogo">
+		<img src="InlogschermLogo.png" align="center">
+  	</div>
   <form id="login" action="includes/auth.inc.php" method="post">
     <label>Name: <input type="text" name="username"></label>
     <label>Password: <input type="text" name="password"></label>
