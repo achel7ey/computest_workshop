@@ -18,7 +18,7 @@ label > input {float:right; padding:0px;}
 input[type="submit"] { float:right }
 
 #header {
-  background-color: purple;
+  background-color: red;
   color: black;
 }
 #flex-container {
@@ -27,8 +27,7 @@ input[type="submit"] { float:right }
   padding: 0px;
 }
 nav {
-  background-color: white;
-  border: 3px dotted red;
+  background-color: #f1f1f1;
   flex: 0 0 10em;
 }
 #content {
@@ -38,27 +37,22 @@ nav {
   flex: 1 1 20em;
 }
 footer {
-  background-color: black;
+  background-color: #f1f1f1;
   color: black;
 }
 #logo {
   float: left;
+  background-color: blue;
   margin: -20px 20px -20px -20px;
   height:70px;
   width:70px;
   background-size: contain;
   background-position: 50% 0;
   background-repeat: no-repeat;
-  background-image: url("HomePageLogo.png");
+  background-image: url("http://cdn.dutchcowboys.nl/uploads/posts/list/23-van-de-kinderen-10-14-jaar-heeft-nog-.jpg");
 }
 #user_details {
   float: right;
   padding: 0px;
   text-align: right;
 }
-.InlogLogo{
-  float: center;
-  margin-left: auto;
-  margin-right:auto;
-}
-
