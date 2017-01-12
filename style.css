@@ -32,7 +32,7 @@ nav {
   flex: 0 0 10em;
 }
 #content {
-  background-color: green;
+  background-color: #f1f1f1;
   border: blue;
   color: red;
   flex: 1 1 20em;
