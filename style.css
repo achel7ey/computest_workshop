@@ -3,7 +3,8 @@ div, footer {
 }
 body {
   background-color: #f1f1f1;
-  font-family: "Verdana", "Times New Roman", Times, serif;
+  font-family: Arial, Helvetica, sans-serif;
+>>>>>>> c0744b02255467a83f15f847fd21c03e1dc65295
   display: flex;
   flex-direction: column;
   color: black;
@@ -19,7 +20,7 @@ input[type="submit"] { float:right }
 
 #header {
   background-color: purple;
-  color: yellow;
+  color: black;
 }
 #flex-container {
   display: flex;
@@ -32,14 +33,14 @@ nav {
   flex: 0 0 10em;
 }
 #content {
-  background-color: green;
+  background-color: #f1f1f1;
   border: blue;
-  color: red;
+  color: black;
   flex: 1 1 20em;
 }
 footer {
   background-color: black;
-  color: white;
+  color: black;
 }
 #logo {
   float: left;
