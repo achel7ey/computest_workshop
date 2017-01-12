@@ -3,7 +3,7 @@ div, footer {
 }
 body {
   background-color: powderblue;
-  font-family: "Verdana", "Times New Roman", Times, serif;
+  font-family: Arial, Helvetica, sans-serif;
   display: flex;
   flex-direction: column;
   color: black;
@@ -16,7 +16,7 @@ input[type="submit"] { float:right }
 
 #header {
   background-color: purple;
-  color: yellow;
+  color: black;
 }
 #flex-container {
   display: flex;
@@ -31,12 +31,12 @@ nav {
 #content {
   background-color: green;
   border: blue;
-  color: red;
+  color: black;
   flex: 1 1 20em;
 }
 footer {
   background-color: black;
-  color: white;
+  color: black;
 }
 #logo {
   float: left;
